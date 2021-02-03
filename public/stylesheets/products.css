@@ -1,20 +1,21 @@
 header {
     border-bottom: 1px solid black;
-    margin-bottom: 8px
+    background-color: #8ccafa
+
 }
 
 header a {
+    border: 2px solid transparent;
     display: inline-block;
     text-decoration: none; 
     padding: 24px 16px;
-    font-size: 20px;
-    border-right: 1px solid black
-}
-
-header div {
-    display: inline-block; 
+    font-size: 16px;
+    border-right: 1px solid black;
+    color: #fff;
+    font-family: sans-serif; 
 }
 
 header a:hover {
-    background-color: cornflowerblue;
+border: 2px solid rgb(16, 30, 114)
 }
+
