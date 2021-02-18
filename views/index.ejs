@@ -3,17 +3,16 @@
 
 <head>
   <title>Pagina Principal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 
 <body>
-  <header>
-    <a href="/">Home</a>
-    <a href="/products">Produtos</a>
-    <a href="/about">Acessar Sobre</a>
-  </header>
-
-  <main>
+  <body>
+    <%- include('./partials/header') %>
+    
+  <main class = >
     <h1>Minha loja de Produtos</h1>
     <div class='content'>
       <section class='about'>
@@ -22,17 +21,17 @@
       </section>
       <section class='benefits'>
         <div class="row">
-          <div class="box">
+          <div class="box card">
             <h2>Cadastro de produtos</h2>
             <p>Dentro do nosso site, você poderá cadastrar produtos que estão disponiveis na sua loja</p>
           </div>
         </div>
         <div class="row">
-          <div class="box">
+          <div class="box card">
             <h2>Listagem de produtos</h2>
             <p>Dentro do nosso site, você poderá visualizar todos os produtos que você tem cadastrado</p>
           </div>
-          <div class="box">
+          <div class="box card">
             <h2>Sistema rápido e fácil </h2>
             <p>Sistema intuitivo que te ajuda no trabalho.</p>
           </div>
